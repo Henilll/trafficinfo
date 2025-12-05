@@ -1,0 +1,19 @@
+# Core YOLOv8 + AI
+ultralytics==8.0.156
+
+# Video processing
+opencv-python==4.8.1.1001
+opencv-contrib-python==4.8.1.1001
+
+# Tracking
+filterpy==1.4.5
+scipy==1.11.3
+numpy==1.27.4
+
+# Dashboard
+streamlit==1.27.0
+plotly==5.20.0
+pillow==10.1.0
+
+# Optional for better visualization / image saving
+matplotlib==3.8.1
