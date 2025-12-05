@@ -2,8 +2,11 @@
 ultralytics==8.0.156
 
 # Video processing
-opencv-python==4.8.1.1001
-opencv-contrib-python==4.8.1.1001
+opencv-python==4.12.0
+ultralytics==8.2.0  # latest compatible version
+streamlit==1.26.0   # or your desired version
+numpy
+
 
 # Tracking
 filterpy==1.4.5
