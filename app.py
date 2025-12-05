@@ -160,6 +160,11 @@ st.set_page_config(page_title="TraffiSight Dashboard", layout="wide")
 # --------------------
 STREAM_URL = "http://109.206.96.58:8080/cam_1.cgi"
 YOLO_MODEL = "yolov8n.pt"
+if not os.path.exists(YOLO_MODEL):
+    print("Downloading YOLO model...")
+    model = YOLO("yolov8n.pt")  # will download automatically
+else:
+    model = YOLO(YOLO_MODEL)
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 360
 VEHICLE_CLASSES = {2:"Car", 3:"Motorbike", 5:"Bus", 7:"Truck"}
