@@ -1,7 +1,7 @@
-streamlit==1.26.0
-ultralytics==8.0.163
-opencv-python==4.8.1.78
-numpy==1.26.0
 pandas==2.1.0
 scipy==1.11.1
 filterpy==1.4.5   # Required by SORT tracker
+numpy==1.26.3
+streamlit==1.26.0
+ultralytics==8.0.163
+opencv-python==4.8.1.78
